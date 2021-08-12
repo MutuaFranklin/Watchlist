@@ -16,7 +16,7 @@ class Config:
     MAIL_USERNAME = os.environ.get("MAIL_USERNAME")
     MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
     SUBJECT_PREFIX = 'Watchlist'
-    SENDER_EMAIL = 'james@moringaschool.com'
+    SENDER_EMAIL = 'franklin.mutua@studentmoringaschool.com'
 
 
     # simple mde  configurations

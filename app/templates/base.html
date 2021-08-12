@@ -14,12 +14,20 @@
 </head>
 
 <body>
-    <!-- Content block -->
+    {%block styles %}
+        {{super()}}
+        <!--Importing the simple mde css and js files  -->
+        {{ simplemde.css}}
+        {{ simplemde.js }}
+    
+    {% endblock %}
 
     <!-- Navbar block  -->
     {% block navbar %}
         {% include 'navbar.html' %}
     {% endblock %}
+
+   
 </body>
 
 </html>

@@ -12,8 +12,6 @@ login_manager.session_protection = 'strong'
 login_manager.login_view = 'auth.login'
 
 simple = SimpleMDE()
-
-
 bootstrap = Bootstrap()
 db = SQLAlchemy()
 photos = UploadSet('photos',IMAGES)

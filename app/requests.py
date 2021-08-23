@@ -15,7 +15,7 @@ def configure_request(app):
 
 def get_movies(category):
     '''
-    Function that gets the json response to our url request
+    Function that gets the json response to the url request
     '''
     get_movies_url = base_url.format(category,api_key)
 

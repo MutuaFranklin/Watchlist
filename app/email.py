@@ -4,7 +4,7 @@ from . import mail
 
 
 subject_pref = 'Watchlist'
-sender_email = 'mbogiyamoringa@gmail.com'
+sender_email = 'frankmailautomation@gmail.com'
 
 
 
